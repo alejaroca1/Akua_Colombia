@@ -1,0 +1,119 @@
+<!DOCTYPE html> <!--Etiqueta abierta que indica que es HTML5-->
+<!--comentario-->
+<html lang="en"> <!--etiqueta cerrada, el contenido debe estar identado a la derecha-->
+<!--lang indica el idioma que nosotros ponemos para los buscadores-->
+    <head> <!--es la cabecera de las configuraciones del sitio web-->
+        <meta charset="UTF-8"> <!--etiqueta abierta,UTF-8 caracteres especiales-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--resposive mobile-->
+        <script src="https://kit.fontawesome.com/0948a5a11d.js" crossorigin="anonymous"></script> <!--Kit de iconos-->
+        <title>AkuaCol - Turismo</title>
+        <!--favicon-->
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <!--En el body va el contenido de nuestra pagina web
+    Logo y navegacion-->
+    <body>
+        <header> 
+            <div class="headerIndex">
+                <a class="logo" href="index.html">
+                    <img src="../assets/img/logo.png" alt="Logo de AkuaCol">
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a>    </li>
+                        <li><a href="#">Destinos</a>    </li>
+                        <li><a href="./nosotros.html">Nosotros</a>    </li>
+                        <li><a href="./blog.html">Blog</a>    </li>
+                        <li><a href="./recursos_humanos.html">¡Unete al equipo!</a>    </li>
+                    </ul>
+                </nav>
+            </div>  
+        </header>
+
+        <main class="main">
+            <section class="contenedorTextoMainDestinos">
+                <h1 class="tituloTextoMainDestinos">Destinos</h1>
+                <h2 class="subtituloTextoMainDestinos colorVerde">Explora a Colombia por sus 5 Regiones Geográficas</h2>
+                <h3 class="subtituloTextoMainDestinos">Descubre la diversidad sin igual de Colombia a través de sus 5 regiones geográficas distintivas. 
+                Desde las playas paradisíacas del Caribe hasta las majestuosas montañas de los Andes, 
+                desde la exuberante selva amazónica hasta las olas impresionantes del Pacífico, y desde 
+                las vastas llanuras de la Orinoquía hasta los secretos ocultos de la Amazonía, cada rincón 
+                del país te espera con experiencias únicas y paisajes impresionantes.</h3>
+            </section>
+            
+            <section class="contenedorTarjetas">
+                <h1 class="colorVerde">Región Caribe</h1>
+                <div class="tarjetaDestinos">
+                    <img class="imgTarjeta" src="../assets/img/cartagena.jpg" alt="card uno">
+                    <section class="bodyTarjeta">  
+                        <h3 class="tituloTarjeta">Cartagena</h3>
+                        <h4 class="subtituloTarjeta">Explora la ciudad histórica y sus murallas.</h4>
+                        <p class="parrafoCard colorVerde">$1.300.000</p>
+                    </section>
+                </div>
+                
+                <div class="tarjeta">
+                    <img class="imgTarjeta" src="../assets/img/san_andres.jpg" alt="card dos">
+                    <section class="bodyTarjeta">
+                        <h3 class="tituloTarjeta">San Andrés</h3>
+                        <h4 class="subtituloTarjeta">Sumérgete en aguas cristalinas y arenas blancas.</h4>
+                        <p class="parrafoCard colorVerde">$1.749.000</p>
+                    </section>
+                </div>
+                
+                <div class="tarjetaDestinos">
+                    <img class="imgTarjeta" src="../assets/img/santa_marta.jpg" alt="card tres">
+                    <section class="bodyTarjeta">
+                        <h3 class="tituloTarjeta">Santa Marta</h3>
+                        <h4 class="subtituloTarjeta">Descubre la combinación perfecta entre montañas y playas.</h4>
+                        <p class="parrafoCard colorVerde">$2.150.000</p>
+                    </section>
+                </div>
+                
+            </section>
+            
+
+        </main>
+
+
+        <footer>
+            <p>Todos los derechos reservados</p>
+            <section>
+                <h3>
+                    Conoce nuestras redes sociales
+                </h3>
+                <a href="https://www.instagram.com/aleroca05/" target="_blank"> <!--Enlace absoluto: es una dirección completa-->
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                
+                <h3>
+                    ¿Tienes alguna duda? Contactanos por Whatsapp
+                </h3>
+                <a href="https://web.whatsapp.com/" target="_blank">
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                    <h4>Whatsapp</h4>
+                </a>
+            </section>
+
+            <section>   
+                <h3>Encuentranos en Bogotá</h3> 
+                <p>Parkway</p>
+                <p>Cra 24 #40-26</p>
+                <p>Bogotá D.C., Colombia</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.54967835549047!2d-74.0750848611982!3d4.630656608193977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a2b6d9b4835%3A0x318b26389383e4eb!2sCra.%2024%20%2340-26%2C%20Bogot%C3%A1!5e0!3m2!1sen!2sco!4v1707502907365!5m2!1sen!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+            </section>
+
+            <section>   
+                <h3>Contacto</h3> 
+                <p>+57 316 357 9900</p>
+                <p>contacto@akua.com</p>
+
+            </section>
+        </footer>
+    </body>
+</html>
