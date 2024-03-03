@@ -48,12 +48,12 @@
         font-size: 1.5rem;
     }
 
-.g-6,.gx-6 {
-  --bs-gutter-x: 4.5rem;
-}
-.g-6,.gy-6 {
-  --bs-gutter-y: 4.5rem;
-}
+  .g-6,.gx-6 {
+    --bs-gutter-x: 4.5rem;
+  }
+  .g-6,.gy-6 {
+    --bs-gutter-y: 4.5rem;
+  }
 @media (min-width: 576px) {
   .g-sm-6,
   .gx-sm-6 {
@@ -104,10 +104,10 @@
     --bs-gutter-y: 4.5rem;
   }
 }
-.py-6 {
-  padding-top: 4.5rem !important;
-  padding-bottom: 4.5rem !important;
-}
+  .py-6 {
+    padding-top: 4.5rem !important;
+    padding-bottom: 4.5rem !important;
+  }
 @media (min-width: 576px) {
   .py-sm-6 {
     padding-top: 4.5rem !important;
@@ -138,213 +138,74 @@
     padding-bottom: 4.5rem !important;
   }
 }
-.hcf-masonry-card {
-  display: block;
-  position: relative;
-  overflow: hidden;
-}
-.hcf-masonry-card .card-img {
-  object-fit: cover;
-  transform: scale(1);
-  transition: transform 150ms linear;
-}
-.hcf-masonry-card .card-overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-}
-.hcf-masonry-card .card-overlay .card-title {
-  display: inline-block;
-  transform: translateY(10px);
-  opacity: 0;
-}
-.hcf-masonry-card .card-overlay .card-category {
-  transform: translateY(10px);
-  opacity: 0;
-}
-.hcf-masonry-card:hover .card-img {
-  transform: scale(1.05);
-  transition: transform 150ms linear;
-}
-.hcf-masonry-card:hover .card-overlay {
-  opacity: 1;
-  transition: opacity 150ms linear;
-}
-.hcf-masonry-card:hover .card-overlay .card-title {
-  opacity: 1;
-  transform: translateY(0);
-  transition: transform 150ms linear 0.1s, opacity 150ms linear 0.1s;
-}
-.hcf-masonry-card:hover .card-overlay .card-category {
-  opacity: 1;
-  transform: translateY(0);
-  transition: transform 150ms linear 0.2s, opacity 150ms linear 0.2s;
-}
+  .hcf-masonry-card {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  .hcf-masonry-card .card-img {
+    object-fit: cover;
+    transform: scale(1);
+    transition: transform 150ms linear;
+  }
+  .hcf-masonry-card .card-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+  }
+  .hcf-masonry-card .card-overlay .card-title {
+    display: inline-block;
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  .hcf-masonry-card .card-overlay .card-category {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  .hcf-masonry-card:hover .card-img {
+    transform: scale(1.05);
+    transition: transform 150ms linear;
+  }
+  .hcf-masonry-card:hover .card-overlay {
+    opacity: 1;
+    transition: opacity 150ms linear;
+  }
+  .hcf-masonry-card:hover .card-overlay .card-title {
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 150ms linear 0.1s, opacity 150ms linear 0.1s;
+  }
+  .hcf-masonry-card:hover .card-overlay .card-category {
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 150ms linear 0.2s, opacity 150ms linear 0.2s;
+  }
 
-    .contenedorTextoMainIndex{
-        text-align: center;
-        margin-top: 50px;
-
-        .tituloTextoMainIndex{
-            font: bold;
-            font-size: 2.5rem;
-            font: 200;
-        }
-
-        .subtituloTextoMainIndex{
-            width: 50%;
-            margin: 0 auto;
-            margin-top: 10px;
-            font-size: 1rem;
-            font-weight: 500;
-        }
-
-        .enlaceDestinos{
-        display: inline-block;
-        text-decoration: none;
-        color: #E7D7C9;
-        background-color: black;
-        margin-top: 10px;
-        border-radius: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        text-align: center;
-        padding-left: 10px;
-        padding-right: 10px;
-        }
+    .enlaceDestinos{
+    display: inline-block;
+    text-decoration: none;
+    color: #E7D7C9;
+    background-color: black;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
     }
-    
-    .contenedorTextoMainDestinos{
-        text-align: center;
-        margin-top: 50px;
-
-        .tituloTextoMainDestinos{
-            font: bold;
-            font-size: 2.5rem;
-            font: 200;
-        }
-
-        .subtituloTextoMainDestinos{
-            width: 70%;
-            margin: 0 auto;
-            margin-top: 10px;
-            font-size: 1rem;
-            font-weight: 500;
-        }
-
-        .colorVerde{
-            color: #3C5B3C;
-            font-weight: 700;
-        }
-
-        .enlaceDestinos{
-        display: inline-block;
-        text-decoration: none;
-        color: #E7D7C9;
-        background-color: black;
-        margin-top: 10px;
-        border-radius: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        text-align: center;
-        padding-left: 10px;
-        padding-right: 10px;
-        }
-    }
-
-    .contenedorTarjetas{
-        display: block;
-        width: 50%;
-        margin: 50px auto;
-        .tarjeta{
-            background-color: #FFEEDD;
-            color: black;
-            border: 1px ;
-            border-radius: 16px 16px 16px 16px;
-            box-shadow: 4px 4px 12px 1px black;
-            margin: 10px auto;
-
-            .imgTarjeta{
-                width: 100%;
-                border-radius: 16px 16px 0px 0px;
-            }
-
-            .bodyTarjeta{
-                padding-left: 10px;
-
-                .tituloTarjeta{
-                    margin-top: 5px;
-                    margin-bottom: 5px;
-    
-                }
-                
-                .subtituloTarjeta{
-                    opacity: 0.7;
-                }
-                .parrafoCard{
-                    font-size: 20px;
-                    font-size: 1.2rem;
-                }
-            }
-
-            .colorVerde{
-                color: #3C5B3C;
-            }
-        }
-    }
-
-    .contenedorTarjetasDestinos{
-        display: block;
-        width: 50%;
-        margin: 50px auto;
-        .tarjeta{
-            background-color: #FFEEDD;
-            color: black;
-            border: 1px ;
-            border-radius: 16px 16px 16px 16px;
-            box-shadow: 4px 4px 12px 1px black;
-            margin: 10px auto;
-
-            .imgTarjeta{
-                width: 100%;
-                border-radius: 16px 16px 0px 0px;
-            }
-
-            .bodyTarjeta{
-                padding-left: 10px;
-
-                .tituloTarjeta{
-                    margin-top: 5px;
-                    margin-bottom: 5px;
-    
-                }
-                
-                .subtituloTarjeta{
-                    opacity: 0.7;
-                }
-                .parrafoCard{
-                    font-size: 20px;
-                    font-size: 1.2rem;
-                }
-            }
-
-            .colorVerde{
-                color: #3C5B3C;
-            }
-        }
-    }   
-    
 }
 
 .logoRecursos{
     width: 200px;
-
 }
 
-
+.footer{
+  
+}
 
 
 
