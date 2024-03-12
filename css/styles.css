@@ -8,31 +8,11 @@
     text-decoration: none;
 }
 
-.header nav.navbar{
+.header{
         background-color: #00879B;
-        position: relative;
+        /*position: relative;*/
     .navbar-brand img{
-    height: 80px;
-    }
-    .navbar-toggler{
-        background-color: #00879B;
-        border: none;
-        font-size: 1.25rem;
-    }
-    .nav-link:focus, .btn-close:focus{
-        box-shadow: none;
-        outline: none;
-    }
-    .nav-link{
-        color: black;
-        font-weight: 1.25rem;
-    }
-    .container-fluid{
-        background-color: #00879B;
-    }
-    .nav-link:hover, .nav-link.active{
-        color: white;
-    }  
+    height: 80px;    
 }
 
 .main{ 
@@ -198,14 +178,4 @@
     padding-right: 10px;
     }
 }
-
-.logoRecursos{
-    width: 200px;
-}
-
-.footer{
-  
-}
-
-
 

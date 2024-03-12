@@ -1,34 +1,43 @@
-<!DOCTYPE html> <!--Etiqueta abierta que indica que es HTML5-->
-<!--comentario-->
-<html lang="en"> <!--etiqueta cerrada, el contenido debe estar identado a la derecha-->
-<!--lang indica el idioma que nosotros ponemos para los buscadores-->
-    <head> <!--es la cabecera de las configuraciones del sitio web-->
-        <meta charset="UTF-8"> <!--etiqueta abierta,UTF-8 caracteres especiales-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--resposive mobile-->
-        <script src="https://kit.fontawesome.com/0948a5a11d.js" crossorigin="anonymous"></script> <!--Kit de iconos-->
+<!DOCTYPE html> 
+<html lang="es"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <script src="https://kit.fontawesome.com/0948a5a11d.js" crossorigin="anonymous"></script> 
         <title>AkuaCol - Turismo</title>
-        <!--favicon-->
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/styles.css">
     </head>
-    <!--En el body va el contenido de nuestra pagina web
-    Logo y navegacion-->
+   
     <body>
         <header> 
-            <div class="headerIndex">
-                <a class="logo" href="index.html">
-                    <img src="../assets/img/logo.png" alt="Logo de AkuaCol">
+            <nav class="navbar navbar-expand-md bg header">
+                <a class="navbar-brand fs-3 ms-3" href="../index.html">
+                    <img src="../assets/img/logo.png" alt="Logo de AkuaCol que representa a la palabra Akua rodeando el croquis del mapa de Colombia">
                 </a>
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Inicio</a>    </li>
-                        <li><a href="#">Destinos</a>    </li>
-                        <li><a href="./nosotros.html">Nosotros</a>    </li>
-                        <li><a href="./blog.html">Blog</a>    </li>
-                        <li><a href="./recursos_humanos.html">¡Unete al equipo!</a>    </li>
+            <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse" data-bs-target="#btn">
+                <i class="fa-sharp fa-solid fa-bars fa-sm" style="color: #ffffff;"></i>                
+            </button>
+                <div class="collapse navbar-collapse" id="btn">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link mx-3 text-white fs-6" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active mx-3 text-white fs-6" href="#">Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-3 text-white fs-6" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-3 text-white fs-6" href="./blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link mx-3 text-white fs-6" href="./recursos_humanos.html">¡Unete al equipo!</a>
                     </ul>
-                </nav>
-            </div>  
+                </div>
+            </nav>
         </header>
 
         <main class="main">
@@ -115,5 +124,6 @@
 
             </section>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
