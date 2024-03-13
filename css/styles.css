@@ -10,10 +10,11 @@
 
 .header{
         background-color: #00879B;
-        /*position: relative;*/
+        position: relative;
     .navbar-brand img{
     height: 80px;    
 }
+
 
 .main{ 
     background-color: #E7D7C9;
@@ -42,6 +43,14 @@
   .g-sm-6,
   .gy-sm-6 {
     --bs-gutter-y: 4.5rem;
+  }
+  .carousel-inner{
+    display: flex;
+  }
+  .carousel-item{
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(100%/3);
   }
 }
 @media (min-width: 768px) {
@@ -176,6 +185,11 @@
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+    }
+
+    .carousel-item img{
+      max-height: 500px;
+      margin:auto;
     }
 }
 
