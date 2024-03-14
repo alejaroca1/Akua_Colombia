@@ -191,5 +191,13 @@
       max-height: 500px;
       margin:auto;
     }
+    .carouselExampleControls{
+      padding:5%;
+    }
 }
 
+.footer{
+  .footer-logo img{
+    height: 100px;
+  }
+}
