@@ -1,0 +1,22 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "proyecto para el curso \"Desarrollo web\" de Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejaroca1/Akua_Colombia.git"
+  },
+  "author": "Alejandra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejaroca1/Akua_Colombia/issues"
+  },
+  "homepage": "https://github.com/alejaroca1/Akua_Colombia#readme",
+  "dependencies": {
+    "sass": "^1.72.0"
+  }
+}
