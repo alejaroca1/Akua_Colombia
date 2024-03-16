@@ -1,0 +1,37 @@
+/*$colores: (
+    color-primario: #00879B,
+    color-secundario: #A5B831,
+    color-texto-primario: #000000,
+    color-texto-secundario: #FFFFFF,
+    color-fondo: #E7D7C9
+);*/
+
+$color-primario: #00879B;
+$color-secundario: #A5B831;
+$color-terciario: #000000;
+$color-texto-primario: #000000;
+$color-texto-secundario: #FFFFFF;
+$color-fondo: #E7D7C9;
+
+$font-family: "Montserrat Alternates", sans-serif;
+
+
+
+/*mapa*/
+$breakpoints: (
+    xs: 0,
+    sm: 450px,
+    md: 768px,
+    lg: 850px,
+    xl: 1200px
+);
+$padings: (
+    xs: 10px,
+    s: 20px,
+    m: 50px,
+    md: 100px
+);
+
+$fuente-normal: 1em;
+$fuente-pequena: 0.8em;
+$fuente-grande: 1.4em;

@@ -1,6 +1,15 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/*$colores: (
+    color-primario: #00879B,
+    color-secundario: #A5B831,
+    color-texto-primario: #000000,
+    color-texto-secundario: #FFFFFF,
+    color-fondo: #E7D7C9
+);*/
+/*mapa*/
 * {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,196 +26,137 @@
 .header .main {
   background-color: #E7D7C9;
   text-align: center;
-  color: black;
-}
-.header .main .main--titulo {
-  padding: 50px 0 0 0;
-  font-size: 2.5rem;
-}
-.header .main .main--parrafo {
-  font-size: 1.5rem;
-}
-.header .main .g-6, .header .main .gx-6 {
-  --bs-gutter-x: 4.5rem;
-}
-.header .main .g-6, .header .main .gy-6 {
-  --bs-gutter-y: 4.5rem;
-}
-@media (min-width: 576px) {
-  .header .main .g-sm-6,
-  .header .main .gx-sm-6 {
-    --bs-gutter-x: 4.5rem;
-  }
-  .header .main .g-sm-6,
-  .header .main .gy-sm-6 {
-    --bs-gutter-y: 4.5rem;
-  }
-  .header .main .carousel-inner {
-    display: flex;
-  }
-  .header .main .carousel-item {
-    display: block;
-    margin-right: 0;
-    flex: 0 0 33.3333333333%;
-  }
-}
-@media (min-width: 768px) {
-  .header .main .g-md-6,
-  .header .main .gx-md-6 {
-    --bs-gutter-x: 4.5rem;
-  }
-  .header .main .g-md-6,
-  .header .main .gy-md-6 {
-    --bs-gutter-y: 4.5rem;
-  }
-}
-@media (min-width: 992px) {
-  .header .main .g-lg-6,
-  .header .main .gx-lg-6 {
-    --bs-gutter-x: 4.5rem;
-  }
-  .header .main .g-lg-6,
-  .header .main .gy-lg-6 {
-    --bs-gutter-y: 4.5rem;
-  }
-}
-@media (min-width: 1200px) {
-  .header .main .g-xl-6,
-  .header .main .gx-xl-6 {
-    --bs-gutter-x: 4.5rem;
-  }
-  .header .main .g-xl-6,
-  .header .main .gy-xl-6 {
-    --bs-gutter-y: 4.5rem;
-  }
-}
-@media (min-width: 1400px) {
-  .header .main .g-xxl-6,
-  .header .main .gx-xxl-6 {
-    --bs-gutter-x: 4.5rem;
-  }
-  .header .main .g-xxl-6,
-  .header .main .gy-xxl-6 {
-    --bs-gutter-y: 4.5rem;
-  }
-}
-.header .main .py-6 {
-  padding-top: 4.5rem !important;
-  padding-bottom: 4.5rem !important;
-}
-@media (min-width: 576px) {
-  .header .main .py-sm-6 {
-    padding-top: 4.5rem !important;
-    padding-bottom: 4.5rem !important;
-  }
-}
-@media (min-width: 768px) {
-  .header .main .py-md-6 {
-    padding-top: 4.5rem !important;
-    padding-bottom: 4.5rem !important;
-  }
-}
-@media (min-width: 992px) {
-  .header .main .py-lg-6 {
-    padding-top: 4.5rem !important;
-    padding-bottom: 4.5rem !important;
-  }
-}
-@media (min-width: 1200px) {
-  .header .main .py-xl-6 {
-    padding-top: 4.5rem !important;
-    padding-bottom: 4.5rem !important;
-  }
-}
-@media (min-width: 1400px) {
-  .header .main .py-xxl-6 {
-    padding-top: 4.5rem !important;
-    padding-bottom: 4.5rem !important;
-  }
-}
-.header .main .hcf-masonry-card {
-  display: block;
-  position: relative;
-  overflow: hidden;
-}
-.header .main .hcf-masonry-card .card-img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  transform: scale(1);
-  transition: transform 150ms linear;
-}
-.header .main .hcf-masonry-card .card-overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-}
-.header .main .hcf-masonry-card .card-overlay .card-title {
-  display: inline-block;
-  transform: translateY(10px);
-  opacity: 0;
-}
-.header .main .hcf-masonry-card .card-overlay .card-category {
-  transform: translateY(10px);
-  opacity: 0;
-}
-.header .main .hcf-masonry-card:hover .card-img {
-  transform: scale(1.05);
-  transition: transform 150ms linear;
-}
-.header .main .hcf-masonry-card:hover .card-overlay {
-  opacity: 1;
-  transition: opacity 150ms linear;
-}
-.header .main .hcf-masonry-card:hover .card-overlay .card-title {
-  opacity: 1;
-  transform: translateY(0);
-  transition: transform 150ms linear 0.1s, opacity 150ms linear 0.1s;
-}
-.header .main .hcf-masonry-card:hover .card-overlay .card-category {
-  opacity: 1;
-  transform: translateY(0);
-  transition: transform 150ms linear 0.2s, opacity 150ms linear 0.2s;
-}
-.header .main .enlaceDestinos {
-  display: inline-block;
-  text-decoration: none;
-  color: #E7D7C9;
-  background-color: black;
-  margin-top: 10px;
-  border-radius: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.header .main .carousel-item img {
-  max-height: 500px;
-  margin-bottom: 20px;
-}
-.header .main .carouselExampleControls {
-  padding: 5%;
-  margin-bottom: 70px;
+  color: #000000;
 }
 
+.base-styles, .experiencias h2, .background .content {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../assets/img/background_index.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background .content h5 {
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-shadow: 0px 1px 1px #00879B;
+}
+.background .content h1 {
+  color: #000000;
+  font-size: 2.8rem;
+  font-weight: 600;
+  text-shadow: 0px 1px 1px #00879B;
+  margin-top: 20px;
+}
+.background .content .changecontent::after {
+  content: " ";
+  color: #00879B;
+  text-shadow: 0px 1px 1px #000000;
+  animation: changetext 30s infinite linear;
+}
+.background .content p {
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 200;
+  text-shadow: 0px 1px 1px #00879B;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.background .content a {
+  padding: 10px;
+  background: #00879B;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.background .content a:hover {
+  background: #000000;
+  color: #00879B;
+}
+
+.experiencias .carousel {
+  padding-bottom: 50px;
+}
+.experiencias h2 {
+  color: #000000;
+  font-size: 2rem;
+  font-weight: 500;
+  text-shadow: 0px 1px 1px #A5B831;
+}
+
+@keyframes changetext {
+  0% {
+    content: "Santa Marta";
+  }
+  10% {
+    content: "San Andrés";
+  }
+  20% {
+    content: "Amazonas";
+  }
+  30% {
+    content: "La Guajira";
+  }
+  40% {
+    content: "Vichada";
+  }
+  50% {
+    content: "Cundinamarca";
+  }
+  60% {
+    content: "Meta";
+  }
+  70% {
+    content: "Antioquia";
+  }
+  80% {
+    content: "Guaviare";
+  }
+  90% {
+    content: "Huila";
+  }
+  100% {
+    content: "Nariño";
+  }
+}
+@media (max-width: 850px) {
+  .main {
+    background-position: 50%;
+  }
+}
+@media (max-width: 450px) {
+  .main .content h5 {
+    font-size: 1.2rem;
+  }
+  .main .content h1 {
+    font-size: 2.5rem;
+  }
+  .main .content p {
+    font-size: 1rem;
+  }
+}
 .site-footer {
   padding: 2em 0;
   background: #00879B;
   font-size: 0.8rem;
-  color: whitesmoke;
+  color: #FFFFFF;
 }
-.site-footer .site-footer p:last-child {
-  margin-bottom: 0;
-}
-.site-footer .site-footer .footer-link li {
+.site-footer .footer-link li {
   line-height: 1.5;
   margin-bottom: 15px;
 }
 .site-footer .footer-social a {
-  color: aliceblue;
+  color: #FFFFFF;
   line-height: 0;
   border-radius: 50%;
   margin: 0 5px 5px 0;
@@ -214,4 +164,8 @@
   height: 70px;
   text-align: center;
   display: inline-block;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+
+
+/*# sourceMappingURL=styles.css.map */
